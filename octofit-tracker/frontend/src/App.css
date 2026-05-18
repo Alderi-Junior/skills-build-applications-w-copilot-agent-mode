@@ -1,0 +1,38 @@
+.App {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.navbar-brand {
+  letter-spacing: 0.04em;
+}
+
+.nav-link {
+  transition: color 0.2s ease;
+}
+
+.nav-link.active {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.modal-backdrop.show {
+  opacity: 0.4;
+}
+
+.details-modal {
+  top: 10%;
+}
+
+.btn-link {
+  text-decoration: none;
+}
